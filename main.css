@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    /*background-color: #847fd6; */
+    background: url("/jaime2_widelg.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: #555;
+    color: #FFF;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: #f2f2f2;
+}
+
+h3 {
+    color: #f2f2f2;
+}
+
+.card {
+    background-color: #2E2B6D;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #FFF;
+}
